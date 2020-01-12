@@ -1,0 +1,61 @@
+create database alumni_system;
+use alumni_system;
+create table director (name varchar(255),mail varchar(255) unique);
+create table college_admin(name varchar(255),mail varchar(255) unique);
+create table student (roll_no varchar(20) primary key,name varchar(255),mail varchar(255) unique,phone varchar(255));
+insert into student values(1,'siddharth','siddharthraja9849@gmail.com','7906861671');
+insert into student values(2,'aman','amankumar17@gmail.com','7906861348');
+
+mysql> insert into student values(3,'balvinder','balvindersi2@gmail.com','9876659825');
+
+mysql> insert into student values(4,'srikant','prashantpadhy21@gmail.com','9876345825');
+
+
+mysql> insert into student values(5,'mayank','mayanktripathi19@gmail.com','9876345342');
+
+
+mysql> insert into student values(6,'akilesh','akileshsalunkhe99@gmail.com','9876345555');
+
+
+mysql> insert into student values(7,'shayantan','shayantan.santra@gmail.com','9876345987');
+
+
+mysql> insert into student values(8,'pranay','pranaysolse87','9876346737');
+
+
+mysql> insert into student values(9,'akshay','akshaypawar1999@gmail.com','9876346789');
+
+
+mysql> insert into student values(10,'ritik','ritikpatil21@gmail.com','9876346223');
+
+
+mysql> insert into student values(11,'aadit','aaditthanekar07@gmail.com','9876346113');
+
+
+mysql> insert into student values(12,'riya','riyathakur@gmail.com','9876343433');
+
+
+mysql> insert into student values(13,'gaurav','gaurav1999@gmail.com','9876343997');
+
+
+mysql> insert into student values(14,'ruturaj','ruturajshiv@gmail.com','9876343999');
+
+
+mysql> insert into student values(15,'siddhu','siddhuraju@gmail.com','9876343990');
+
+
+mysql> insert into student values(16,'aniket','aniketpawar@gmail.com','9876343904');
+
+
+mysql> insert into student values(17,'sanket','sanketthakur@gmail.com','9876344504');
+
+
+mysql> insert into student values(18,'kaushal','kaushalchande@gmail.com','9876343304');
+
+
+mysql> insert into student values(19,'mahendra','mahendrabhatt@gmail.com','9876301304');
+
+
+mysql> insert into student values(20,'saurabh','saurabhkumar@gmail.com','9876301234');
+
+
