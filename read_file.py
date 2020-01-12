@@ -25,3 +25,4 @@ for i in range(0,len(ele)):
             final_executable_queries.append(query[0])
             print(query[0])
             mydb.cursor().execute(query[0])
+        mydb.commit()
